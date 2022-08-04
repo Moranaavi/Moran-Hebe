@@ -1,30 +1,20 @@
-@media screen and (max-width: 960px){
-#wrapper {
-width: 758px;
-overflow: hidden;
-}
-section {
-width: 420px;
-}
-aside {
-width: 230px;
-}
-}
+
 
 
 @media screen and (max-width: 758px){
-#wrapper {
+.mobile {
 width: 480px;
 }
 section, aside {
 float: none;
-width: 440px;
-}
+width: 440px;}
+
+
 }
 
 
 @media screen and (max-width: 480px){
-#wrapper {
+.tablet {
 max-width: 480px;
 width: auto;
 margin: 20px;
@@ -34,4 +24,16 @@ float: none;
 width: 92%;
 padding: 4%;
 }
+}
+
+@media screen and (max-width: 960px){
+.computer {
+width: 758px;
+overflow: hidden;
+}
+section {
+width: 420px;
+}
+aside {
+width: 230px;
 }

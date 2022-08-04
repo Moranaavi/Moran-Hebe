@@ -3,19 +3,31 @@
 
 div.textstyle {
 	    color:white;
-		text-align:center;
-
-      font-family: 	Times New Roman, -serif;     
+      font-family: Times New Roman, -serif;     
       font-size:2vw;
 	  word-spacing: 8px;
 	 letter-spacing: 2px;
 	 font-style: oblique;
-	
-	  
-
-	 
+	 text-align-last: center;
+    
+		 	 
  }
 
+body {
+        background-image:url(water-lily-.png) ;		   
+             background-blend-mode: lighten;
+			  background-position: center;
+              opacity:0.9;			           
+	   		  padding-top: 50px;
+              padding-right: 30px;
+              padding-bottom: 50px;
+              padding-left: 80px;
+}		 		
+ 
+
+	 
+	 
+	    
 .moran {
    
       border-radius: 50%;
@@ -30,7 +42,7 @@ div.textstyle {
 
 
 
-div.home-sec { 
+home-sec { 
      
         background-image: url(water-lily-.png)  ;
          background-repeat: repeat-x;
@@ -113,18 +125,7 @@ a :hover {
   background-color:purple;
 }
 
-.button {
-  background-color:LightGray ;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
 
-}
   
  a {
     float: none;
@@ -134,29 +135,27 @@ a :hover {
 
 
   
-div.astyle { 
-      	   
-          background-image: url(water-lily-.png)  ;		  
-		   background-repeat: repeat-y; 
-             background-blend-mode: lighten;
-			  background-position: right center;
-             opacity:0.9;			 
-	   		  padding-top: 50px;
-           padding-right: 30px;
-          padding-bottom: 50px;
-           padding-left: 80px;
-		   clear:left;		  	  
-}
+
 
 img {  
       opacity:0.5;
 }
 	            
+aboutme {
+	      background-image:url(water-lily-.png) ;		   
+             background-blend-mode: lighten;
+			  background-position: right center;
+              opacity:0.9;			           
+	   		  padding-top: 50px;
+              padding-right: 30px;
+              padding-bottom: 50px;
+              padding-left: 80px;
+		 	
+}
 
 
-div.qa {
-	      background-image:url(water-lily-.png) ;		  
-		   background-repeat:repeat-y; 
+qa {
+	      background-image:url(water-lily-.png) ;		   
              background-blend-mode: lighten;
 			  background-position: right center;
              opacity:0.9;			           
@@ -164,29 +163,26 @@ div.qa {
            padding-right: 30px;
           padding-bottom: 50px;
            padding-left: 80px;
-		   clear:left;	
+		 	
 }
 
 
-div.edu {
-	 background-image:url(water-lily-.png) ;		  
-		   background-repeat: repeat-y; 
+edu {
+	 background-image:url(water-lily-.png) ;		   
              background-blend-mode: lighten;
 			  background-position: right center;
-             opacity:0.9;			 
-          
+             opacity:0.9;			           
 	   		  padding-top: 50px;
            padding-right: 30px;
           padding-bottom: 50px;
            padding-left: 80px;
-		   clear:left;		  
+		  		  
 }
 
 
 
-div.details { 
-              background-image:url(water-lily-.png) ;		  
-		   background-repeat: repeaty; 
+details { 
+              background-image:url(water-lily-.png) ;		   
              background-blend-mode: lighten;
 			  background-position: right center;
              opacity:0.9;			        
@@ -194,7 +190,7 @@ div.details {
            padding-right: 30px;
           padding-bottom: 50px;
            padding-left: 80px;
-		   clear:left;	
+		   
  }
  
 
