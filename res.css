@@ -37,3 +37,9 @@ width: 420px;
 aside {
 width: 230px;
 }
+  
+  
+  .responsive-img{
+  max-width: 100%;
+  height: auto
+}
