@@ -14,12 +14,25 @@ body {
 
 h1 {
 	  text-align:left;
-	  margin-left:10%	  
+	  margin-left:8%;
+	  font-size: 50px;
+	
+	  	  
 }
 
 h3 {
 	 text-align:left;
-	  margin-left:15%
+	  margin-left:15%;
+	  font-size:30px;
+}
+
+h5  {
+	text-align:left;
+	margin-left:8%;  
+  text-indent: -50px;
+  color:#F8F8FF;
+  font-size:20px;
+  font-family: Copperplate, Papyrus, fantasy;
 }
 
 
@@ -34,7 +47,7 @@ h3 {
 }
 
 .flex-container .box1 {
-  background-color: hsl(313, 12%, 80%);
+  background-color:hsl(313, 12%, 80%);
   width: 50%;
   margin: 30px;
   text-align: center;
@@ -167,3 +180,5 @@ html {
 	        background-image:url(puzzle-g9ed498c3f_1920.jpg);
 			
 }
+
+
